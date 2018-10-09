@@ -236,7 +236,7 @@ def next_bus(busNumber):
     for data in data_list:
         if str(data['Route']) == busNumber:
             busStop = data['Bus_Stop']
-			arrival_time = data['Time']  
+            arrival_time = data['Time']  
     speech = f"The next {busNumber} bus will arrive at {busStop} at {arrival_time} a.m.."
     print('speech = {}'.format(speech))
     
@@ -660,9 +660,9 @@ def fallback():
 @ask.session_ended
 def session_ended():
     return "{}", 200
-    
+"""    
 if __name__ == "__main__":
-    """
+
     try:
         _create_unverified_https_context = ssl._create_unverified_context
     except AttributeError:
@@ -731,7 +731,6 @@ if __name__ == "__main__":
     """
     tokenized_data_full = tokenize_data(csv_data)
     print("tokenized data") 
-    """
     time.sleep(1)
 
     print("starting app")
