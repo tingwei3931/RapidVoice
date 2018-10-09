@@ -217,7 +217,7 @@ def next_stop(busStop):
 def next_bus(busNumber):
     arrival_time = ""
     busStop = ""
-    csv_reader = csv.reader(open('bus-updated.csv'), delimiter=';')
+    csv_reader = csv.reader(open('./bus-updated.csv'), delimiter=';')
     list_data = list(csv_reader)
     #print(list_data)
     data_list = []
