@@ -186,8 +186,8 @@ def bus_coming():
 @ask.intent("NextStopIntent", convert={'busStop': str})
 def next_stop(busStop):
 	print("Invoking Next Stop Intent")
-    arrival_time = ""
-    csv_reader = csv.reader(open('bus-updated.csv'), delimiter=';')
+    csv_reader = csv.reader(open('./bus-updated.csv'), delimiter=';')
+	print(csv_reader)
     list_data = list(csv_reader)
     #print(list_data)
     data_list = []
