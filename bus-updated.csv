@@ -1,0 +1,55 @@
+Route,Latitude ,Longitude,Bus Stop,Time
+101,5.4137,100.3386,Weld Quay,5:30
+101,5.4144,100.338,Lebuh Chulia,5:31
+101,5.4189,100.3295,Jalan Penang,5:33
+101,5.4181,100.3296,Chowrasta Market,5:36
+101,5.4144,100.3284,Komtar,5:40
+101,5.4183,100.3261,Jalan Burma,5:50
+101,5.4154,100.3129,Jalan Pangkor,5:55
+101,5.4148,100.3129,Jalan Perak,6:00
+101,5.4313,100.3132,Jalan Kelawei,6:02
+101,5.4358,100.3083,Jalan Bagan Jermal,6:05
+101,5.4358,100.3057,Jalan Tg Tokong,6:08
+101,5.4654,100.2776,Jalan Tg Bunga,6:12
+101,5.4654,100.2778,Terminal Bas Tg Bunga,6:15
+101,5.4808,100.2474,Jalan Bt Feringghi,6:18
+101,5.4686,100.2177,Jalan Teluk Bahang,6:20
+101,5.4313,100.2453,Jalan Hassan Abbas,6:25
+203,5.4254,100.31791,Jalan Air Itam,5:30
+203,5.3431,100.27156,Jalan Paya Terubong,5:33
+203,5.4218,100.34052,Lebuhraya Thean Teik,5:37
+203,5.38885,100.27981,Lintang Angsana,5:40
+203,5.4062,100.27818,Jalan Angsana,5:45
+203,5.38622,100.28102,Jalan Semarak Api,5:49
+203,5.3895,100.28272,Jalan Angsana,5:54
+203,5.3895,100.27613,Jalan Thean Teik,6:00
+203,5.4254,100.31791,Jalan Air Itam,6:04
+203,5.3895,100.24976,Jalan Data Keramat,6:10
+203,5.41923,100.32324,Jalan Penang,6:14
+203,5.41923,100.3232,Jalan Burma,5:52
+203,5.41923,100.32316,Jalan Transfer,6:20
+203,5.41923,100.32312,Jalan Sri Bahari,6:24
+203,5.41923,100.32307,Jalan Penang,6:30
+203,5.41923,100.32303,Lebuh Chulia,6:35
+203,5.41923,100.32299,Gat. Lbh Chulia,6:40
+203,5.41423,100.33965,Jalan Peng. Weld,6:45
+203,5.419,100.34265,Per. King Edwards,6:52
+203,5.41423,100.33965,Peng. Weld,6:56
+203,5.39819,100.26986,Jalan Air Itam ( Kek Lok Si Temple ),7:00
+203,5.41423,100.27162,Jalan Balik Pulau,7:04
+203,3.12769,101.68179,Jalan Pasar,7:09
+203,5.3431,100.27156,Jalan Paya Terubong,7:16
+203,5.4218,100.34052,Lebuhraya Thean Teik,7:19
+203,5.38885,100.27981,Lintang Angsana,7:23
+203,5.3895,100.28272,Jalan Angsana,7:27
+203,5.38622,100.28102,Jalan Semarak Api,7:32
+203,5.3895,100.28272,Jalan Angsana,7:37
+203,5.3895,100.27613,Jalan Thean Teik,7:43
+203,5.4124,100.31346,Jalan Dato Keramat ( Stadium P.Pinang),7:48
+203,5.4254,100.31791,Jalan Air Itam,7:52
+203,5.4124,100.30577,Jalan Magazine,7:56
+203,5.41444,100.32841,Term. Bas KOMTAR,7:00
+203,5.4124,100.30573,Jalan Ria,7:10
+203,5.41462,100.32925,Jalan Dr. Lim Chwee Leong (Pragin Mall),7:13
+203,5.41923,100.32299,Gat. Lbh Chulia,7:18
+203,5.41423,100.33965,Peng. Weld,7:25
