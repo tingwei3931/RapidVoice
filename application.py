@@ -212,6 +212,7 @@ def next_stop(busStop):
     
     return statement(speech)
 
+"""
 @ask.intent("NextBusIntent", convert={'busNumber': str})
 def next_bus(busNumber):
     arrival_time = ""
@@ -239,8 +240,7 @@ def next_bus(busNumber):
     print('speech = {}'.format(speech))
     
     return statement(speech)
-
-
+"""
 
 
 @ask.intent("SpecifyStandard", convert={'query': str})
