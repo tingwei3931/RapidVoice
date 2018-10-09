@@ -192,7 +192,7 @@ def next_stop(busStop):
     data_list = []
     #Route, Latitude, Longitude, Bus Stop, Time
     attributes = list_data[0];
-   
+    print(busStop);
     for dataline in list_data[1:]:
         data = {}
         split_data = dataline[0].split(',')
