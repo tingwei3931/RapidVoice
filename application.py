@@ -212,10 +212,11 @@ def next_stop(busStop):
     
     return statement(speech)
 
-"""
+
 @ask.intent("NextBusIntent", convert={'busNumber': str})
 def next_bus(busNumber):
     arrival_time = ""
+	busStop = ""
     csv_reader = csv.reader(open('bus-updated.csv'), delimiter=';')
     list_data = list(csv_reader)
     #print(list_data)
@@ -233,10 +234,10 @@ def next_bus(busNumber):
         data['Time'] = split_data[4]
         data_list.append(data)
     for data in data_list:
-        if data['Bus_Stop'].lower() == busStop1:
-            if str(data['Route']) == busNumber:
-                arrival_time = data['Time']  
-    speech = f"The next {busNumber} bus will arrive at {busStop1} at {arrival_time} a.m.."
+        if str(data['Route']) == busNumber:
+            busStop = data['Bus_Stop']
+			arrival_time = data['Time']  
+    speech = f"The next {busNumber} bus will arrive at {busStop} at {arrival_time} a.m.."
     print('speech = {}'.format(speech))
     
     return statement(speech)
