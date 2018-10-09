@@ -216,7 +216,7 @@ def next_stop(busStop):
 @ask.intent("NextBusIntent", convert={'busNumber': str})
 def next_bus(busNumber):
     arrival_time = ""
-	busStop = ""
+    busStop = ""
     csv_reader = csv.reader(open('bus-updated.csv'), delimiter=';')
     list_data = list(csv_reader)
     #print(list_data)
